@@ -27,7 +27,7 @@ section h2 {
 article {
   width: 40vw;
   padding: 30px  50px;
-  background: rgba(56, 221, 233, 0.2);
+  background: rgba(56, 221, 233, 0.4);
   -webkit-box-shadow: 0 8px 32px 0 rgba(36, 235, 241, 0.37);
           box-shadow: 0 8px 32px 0 rgba(36, 235, 241, 0.37);
   -webkit-backdrop-filter: blur(9px);
@@ -142,6 +142,17 @@ article p {
 
 .tournament p {
   color: azure;
+}
+
+.history {
+  background: url("../img/kolorowe kwadraty.jpg");
+}
+
+.kontakt {
+  background: url("../img/kontakt bg.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: bottom;
 }
 
 footer {

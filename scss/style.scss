@@ -26,7 +26,7 @@ article{
     
     width: 40vw;
     padding:30px  50px;
-    background: rgba(56, 221, 233, 0.2);
+    background: rgba(56, 221, 233, 0.4);
     box-shadow: 0 8px 32px 0 rgba(36, 235, 241, 0.37);
     backdrop-filter: blur( 9px );
     border-radius: 10px;
@@ -135,12 +135,20 @@ article{
     }
 }
 // ***************historia *************
-
+.history{
+    background: url("../img/kolorowe\ kwadraty.jpg");
+}
 // **************galleria **************
 
 // **************partnerzy *************
 
 // **************kontakt****************
+.kontakt{
+    background: url("../img/kontakt\ bg.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+}
 
 // ***********stopka*********************
 
