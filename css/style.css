@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  min-height: 80vh;
+  padding: 100px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+section h2 {
+  color: darkmagenta;
+  text-transform: uppercase;
+}
+
+article {
+  width: 40vw;
+  padding: 30px  50px;
+  background: rgba(56, 221, 233, 0.2);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(36, 235, 241, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(36, 235, 241, 0.37);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(9, 95, 207, 0.18);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+article h1 {
+  padding-bottom: 20px;
+}
+
+article h2 {
+  padding-bottom: 15px;
+}
+
+article p {
+  padding-bottom: 15px;
+}
+
+.photo {
+  width: 50%;
+  padding: 10px 40px;
+}
+
+.photo img {
+  width: 80%;
+  height: auto;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(56, 56, 65, 0.452);
+          box-shadow: 8px 8px 24px 0px rgba(56, 56, 65, 0.452);
+}
+
+.menu {
+  height: 80px;
+  width: 100vw;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px 0;
+  top: 0;
+  background: url("../img/underwater.jpg");
+  z-index: 30;
+}
+
+.menu ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+  background: rgba(34, 46, 104, 0.2);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
+  font-size: 12px;
+}
+
+.menu ul li i {
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+  color: #7ad6f1;
+}
+
+.menu ul li p {
+  position: relative;
+  top: 20px;
+  font-size: 10px;
+  font-weight: 900;
+  color: #74d9f8;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu ul li :hover {
+  color: white;
+}
+
+.menu ul li :hover + p {
+  color: white;
+}
+
+.menu ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.meeting {
+  background: url("../img/terram.jpg");
+  background-size: cover;
+}
+
+.tournament {
+  background: url("../img/kolorowe kwadraty.jpg");
+}
+
+.tournament article {
+  background-color: rgba(48, 22, 22, 0.747);
+}
+
+.tournament article h2 {
+  color: chartreuse;
+}
+
+.tournament p {
+  color: azure;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  padding: 20px 0;
+  display: block;
+  color: azure;
+  text-align: center;
+  background: url(../img/underwater.jpg);
+}
+
+footer p {
+  text-justify: auto;
+}
+/*# sourceMappingURL=style.css.map */
