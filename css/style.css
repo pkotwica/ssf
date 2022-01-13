@@ -202,6 +202,53 @@ article p {
   background-position: bottom;
 }
 
+.kontakt .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.kontakt .media div {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.kontakt .media div:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-box-shadow: -10px 10px 4px 2px #12152d;
+          box-shadow: -10px 10px 4px 2px #12152d;
+}
+
+.kontakt .media div i {
+  font-size: 40px;
+}
+
+.kontakt .media div a {
+  display: block;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  margin: auto;
+}
+
+.kontakt .media .fb {
+  background: #385898;
+}
+
+.kontakt .media .yt {
+  background: #c00;
+}
+
+.kontakt .media .disc {
+  background: #5865f2;
+}
+
 footer {
   width: 100vw;
   height: 10vh;
