@@ -148,6 +148,53 @@ article p {
   background: url("../img/kolorowe kwadraty.jpg");
 }
 
+.news {
+  background: url("/img/underwater.jpg");
+}
+
+.galeria {
+  background-color: black;
+}
+
+.partnerzy {
+  background: url("../img/mars.jpg");
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: -ms-grid;
+  display: grid;
+}
+
+.partnerzy h1 {
+  width: 100vw;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.partnerzy .box__partnerzy {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.partnerzy .box__partnerzy .partner {
+  display: block;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+}
+
+.partnerzy .box__partnerzy .partner img {
+  width: 100%;
+  height: auto;
+}
+
 .kontakt {
   background: url("../img/kontakt bg.jpg");
   background-size: cover;

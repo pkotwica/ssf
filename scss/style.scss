@@ -138,10 +138,46 @@ article{
 .history{
     background: url("../img/kolorowe\ kwadraty.jpg");
 }
+// **************aktualności *********************
+.news{
+    background: url("/img/underwater.jpg");
+}
 // **************galleria **************
-
+.galeria{
+    background-color: black;
+}
 // **************partnerzy *************
+.partnerzy{
+    background: url("../img/mars.jpg");
+    height: min-content;
+    display: grid;
+    h1{
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+        
+        padding: 30px;
+    }
+    .box__partnerzy{
+        width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding-bottom: 30px;
 
+        .partner{
+            display: block;
+            width:200px;
+            height: auto;
+            padding: 5px;
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
 // **************kontakt****************
 .kontakt{
     background: url("../img/kontakt\ bg.jpg");
