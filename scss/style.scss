@@ -134,9 +134,12 @@ article{
         color: azure;
     }
 }
+.what{
+    background: url("../img/koła\ 2.jpg");
+}
 // ***************historia *************
 .history{
-    background: url("../img/kolorowe\ kwadraty.jpg");
+    background: url("../img/mars.jpg");
 }
 // **************aktualności *********************
 .news{
@@ -148,7 +151,7 @@ article{
 }
 // **************partnerzy *************
 .partnerzy{
-    background: url("../img/mars.jpg");
+    background: url("../img/kolorowe\ kwadraty.jpg");
     height: min-content;
     display: grid;
     h1{
@@ -190,12 +193,12 @@ article{
         div{
             width: 50px;
             height: 50px;
-            margin: 20px;
+            margin: 10px;
             border-radius: 10px;
             transition: all 0.3s ease-in-out;
             &:hover{
-                transform: scale(1.5);
-                box-shadow: -10px 10px 4px 2px rgba(18, 21, 45, 1);
+                transform: scale(1.2);
+                box-shadow: 0px 5px 4px 2px rgba(18, 21, 45, 0.4);
             }
             i{
                 font-size: 40px;
@@ -233,7 +236,7 @@ footer{
     display: block;
     color: azure;
     text-align: center;
-    background: url(../img/underwater.jpg);
+    background: url("../img/underwater.jpg");
     p{
     text-justify: auto;
     }

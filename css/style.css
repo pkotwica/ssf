@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -144,8 +145,12 @@ article p {
   color: azure;
 }
 
+.what {
+  background: url("../img/koła 2.jpg");
+}
+
 .history {
-  background: url("../img/kolorowe kwadraty.jpg");
+  background: url("../img/mars.jpg");
 }
 
 .news {
@@ -157,7 +162,7 @@ article p {
 }
 
 .partnerzy {
-  background: url("../img/mars.jpg");
+  background: url("../img/kolorowe kwadraty.jpg");
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -212,17 +217,17 @@ article p {
 .kontakt .media div {
   width: 50px;
   height: 50px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 .kontakt .media div:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-box-shadow: -10px 10px 4px 2px #12152d;
-          box-shadow: -10px 10px 4px 2px #12152d;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: 0px 5px 4px 2px rgba(18, 21, 45, 0.4);
+          box-shadow: 0px 5px 4px 2px rgba(18, 21, 45, 0.4);
 }
 
 .kontakt .media div i {
@@ -256,7 +261,7 @@ footer {
   display: block;
   color: azure;
   text-align: center;
-  background: url(../img/underwater.jpg);
+  background: url("../img/underwater.jpg");
 }
 
 footer p {
